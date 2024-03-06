@@ -1,0 +1,122 @@
+body {
+    font-family: Abril fatface;
+    background-color: #D9D9D9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #D9D9D9;
+    /*color: #D9D9D9;*/
+    /* padding: 10px 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    height: 70px;
+    border-bottom: 1px;
+}
+
+.logo {
+    background-color: #D9D9D9;
+    background-image: url("../static/images/logo11.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain; /* to be able to zoom in and out with width and height */
+    display: block;
+    float: left;
+    width: 50%;
+    height: 50px;
+    max-width: 100%;
+    align-items: left;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+.quotiverselogo {
+    background-color: #D9D9D9;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain; /* to be able to zoom in and out with width and height */
+    display: block;
+    float: left;
+    width: 50%;
+    height: 50px;
+    max-width: 100%;
+    align-items: left;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+.user-actions {
+    float: right;
+    margin-top: 25px
+}
+
+.user {
+    color: #D9D9D9;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding: 5px 10px;
+    align-items: center;
+    border-radius: 20px; /* Rounded corners */
+    border-radius:#1a1818;
+    background-color: #B77F36 /* Transparent background */
+}
+
+.user-actions .register:hover {
+    background-color: rgba(177, 141, 73, 0.609); /* Lighter background on hover */
+    color:#B77F36;
+}
+
+.user-actions .login:hover {
+    background-color: rgba(79, 153, 168, 0.668); /* Lighter background on hover */
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.separator {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.category-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.quote-container {
+    display: flex;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.quote {
+    width: 25%;
+    padding: 1px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #D9D9D9;
+    color: #1a1818;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #a0a0a09e;
+}

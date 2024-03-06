@@ -1,0 +1,150 @@
+body {
+    font-family: 'Abril fatface', 'Bodoni FLF';
+    background-color: #D9D9D9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #D9D9D9;
+    /*color: #D9D9D9;*/
+    /* padding: 10px 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    height: 70px;
+    border-bottom: 1px solid #a0a0a09e;
+}
+
+.logo {
+    background-color: #D9D9D9;
+    background-image: url("../images/logo11.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain; /* to be able to zoom in and out with width and height */
+    display: block;
+    float: left;
+    width: 50%;
+    height: 50px;
+    max-width: 100%;
+    align-items: left;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+.user-actions {
+    float: right;
+    margin-top: 25px
+}
+
+.register {
+    color:  #656564;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding: 5px 10px;
+    align-items: center;
+    border-radius: 20px; /* Rounded corners */
+    border: 1px solid #B77F36;
+    background-color: #D9D9D9 /* Transparent background */
+}
+
+.login {
+    color: #D9D9D9;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding: 5px 10px;
+    align-items: center;
+    border-radius: 20px; /* Rounded corners */
+    border:1px solid #5098AC;
+    background-color: #5098AC;
+}
+
+.user-actions .register:hover {
+    background-color: rgba(190, 149, 149, 0.2); /* Lighter background on hover */
+}
+
+.user-actions .login:hover {
+    background-color: rgba(79, 153, 168, 0.668); /* Lighter background on hover */
+}
+
+.container {
+    background-color: #F1F1F1;
+    align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+    margin: 90px auto 0;
+}
+
+h3 {
+    text-align: center;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 70%;
+    padding: 10px;
+    margin-left: 40px;
+    border-radius: 20px;
+    border: 0px solid; /* Add this to remove default border */
+    box-sizing: border-box;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus {
+    outline: none;
+    border-color: #1a1818;
+}
+
+.btn-register {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: #B77F36;
+    color: #cececc;
+    font-size: 12px;
+    font-weight: regular;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.btn-register:hover {
+    background-color: rgba(190, 149, 149, 0.2);
+    color: #fff;
+    border-color: #3e2b11;
+}
+
+.footer {
+    background-color: #D9D9D9;
+    color: #1a1818;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #a0a0a09e;
+}

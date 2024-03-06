@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='5-1.png') }}" />
+    <title>Quotiverse</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}" />
+    <!link rel="icon" type="image/png" href="./images/logo.png" />
+</head>
+<body>
+    <header>
+        <! div class="header"><!/div>
+        <div class="logo" onclick="window.location.href='{{ url_for('home') }}'">
+        </div>
+
+        <div class="user-actions">
+            <a href="{{ url_for('register') }}" class="register">Register</a>
+            <a href="{{ url_for('login') }}" class="login">Log In</a>
+        </div>
+    </header>
+    <div class="separator"></div>
+    <div class="main-content">
+        <div class="category-header">Category - Inspiration</div>
+        <div class="quote-container">
+            <div class="quote">
+                <img src="../static/quote_images/Easy_Life.png" alt="Quote 1">
+                <p>Who said Life was easy</p>
+            </div>
+            <div class="quote">
+                <img src="../static/quote_images/programmerlife1.png" alt="Quote 2">
+                <p>Who said Life was easy</p>
+            </div>
+            <div class="quote">
+                <img src="../static/quote_images/Easy_Life.png" alt="Quote 1">
+                <p>Who said Life was easy</p>
+            </div>
+            <div class="quote">
+                <img src="../static/quote_images/programmerlife1.png" alt="Quote 1">
+                <p>Who said Life was easy</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        &copy; 2024 - Quotiverse
+    </footer>
+</body>
+</html>
