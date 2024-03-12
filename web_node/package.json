@@ -1,0 +1,20 @@
+{
+  "name": "web_node_2",
+  "version": "1.0.0",
+  "description": "First version for Quotiverse using Node.js and MySQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Quote",
+    "world"
+  ],
+  "author": "Yaa Serwaa Gyan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.3",
+    "mysql": "^2.18.1"
+  }
+}

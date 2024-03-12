@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" type="image/png" href="./images/5-1.png"/>
+    <title>Welcome!</title>
+    <link rel="stylesheet" type="text/css" href="./styles/user.css" />
+    <!link rel="icon" type="image/png" href="./images/logo.png" />
+    <script src="./js/user.js"></script>
+    <script>
+        // Script to open image in the same web page
+        function openModal(imgSrc) {
+            var modal = document.getElementById("myModal");
+            var modalImg = document.getElementById("modalImg");
+            modal.style.display = "block";
+            modalImg.src = imgSrc;
+        }
+        function closeModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <! div class="header"><!/div>
+        <div class="logo" onclick="window.location.href='home.html'">
+            <!img class="quotiverselogo" src="./images/logo11.png" alt="logo"/>
+        </div>
+        <div id="greeting"></div>
+        <div class="user-actions">
+            <a href="login.html" class="logout">Log Out</a>
+        </div>
+    </header>
+    <div class="separator"></div>
+    <div class="main-content">
+        <div class="category-header">Category - Inspiration</div>
+        <div class="separator"></div>
+        <div class="quote-container">
+            <div class="quote">
+                <img src="./quote_images/quote_inspo1-1.png" alt="Quote 1" onclick="openModal('./quote_images/quote_inspo1-1.png')">
+                <p>Inspo</p>
+            </div>
+            <div class="quote">
+                <img src="./quote_images/programmerlife1.png" alt="Quote 2" onclick="openModal('../web_static/quote_images/programmerlife1.png')">
+                <p>Who said Life was easy</p>
+            </div>
+            <div class="quote">
+                <img src="./quote_images/quote_inspo2-1.png" alt="Quote 1" onclick="openModal('../web_static/quote_images/quote_inspo2-1.png')">
+                <p>Who said Life was easy</p>
+            </div>
+            <div class="quote">
+                <img src="./quote_images/quote_inspo3-1.png" alt="Quote 1" onclick="openModal('../web_static/quote_images/quote_inspo3-1.png')">
+                <p>Who said Life was easy</p>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="category-header">Category - Humor</div>
+        <div class="separator"></div>
+        <div class="quote-container">
+            <div class="quote">
+                <img src="./quote_images/quote_humor1.jpg" alt="Quote 1" onclick="openModal('./quote_images/quote_humor1.jpg')">
+                <p>Inspo</p>
+            </div>
+            <div class="quote">
+                <img src="./quote_images/quote_humor2.jpg" alt="Quote 2" onclick="openModal('../web_static/quote_images/quote_humor2.jpg')">
+                <p>Who said Life was easy</p>
+            </div>
+            <div class="quote">
+                <img src="./quote_images/quote_humor3.jpg" alt="Quote 1" onclick="openModal('../web_static/quote_images/quote_humor3.jpg')">
+                <p>Who said Life was easy</p>
+            </div>
+            <div class="quote">
+                <img src="./quote_images/quote_humor4.jpg" alt="Quote 1" onclick="openModal('../web_static/quote_images/quote_humor4.jpg')">
+                <p>Who said Life was easy</p>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="category-header">Category - Relationship</div>
+        <div class="separator"></div>
+        <div class="quote-container">
+            <div class="quote">
+                <img src="./quote_images/quote_rel3-1.png" alt="Quote 1" onclick="openModal('./quote_images/quote_rel3-1.png')">
+                <p>Inspo</p>
+            </div>
+            <div class="quote">
+                <img src="./quote_images/quote_rel1-1.png" alt="Quote 2" onclick="openModal('../web_static/quote_images/quote_rel1-1.png')">
+                <p>Who said Life was easy</p>
+            </div>
+            <div class="quote">
+                <img src="./quote_images/quote_rel2-1.png" alt="Quote 1" onclick="openModal('../web_static/quote_images/quote_rel2-1.png')">
+                <p>Who said Life was easy</p>
+            </div>
+            <div class="quote">
+                <img src="./quote_images/quoterelationship4.jpg" alt="Quote 1" onclick="openModal('../web_static/quote_images/quoterelationship4.jpg')">
+                <p>Who said Life was easy</p>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="category-header">Category - Pregnancy</div>
+        <div class="separator"></div>
+        <div class="quote-container">
+            <div class="quote">
+                <img src="./quote_images/quote_preg1-1.png" alt="Quote 1" onclick="openModal('./quote_images/quote_preg1-1.png')">
+                <p>Inspo</p>
+            </div>
+            <div class="quote">
+                <img src="./quote_images/quote_preg2-1.png" alt="Quote 2" onclick="openModal('../web_static/quote_images/quote_preg2-1.png')">
+                <p>Who said Life was easy</p>
+            </div>
+            <div class="quote">
+                <img src="./quote_images/quote_preg3-1.png" alt="Quote 1" onclick="openModal('../web_static/quote_images/quote_preg3-1.png')">
+                <p>Who said Life was easy</p>
+            </div>
+            <div class="quote">
+                <img src="./quote_images/quote_preg5.jpg" alt="Quote 1" onclick="openModal('../web_static/quote_images/quote_preg5.jpg')">
+                <p>Who said Life was easy</p>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+    <footer class="footer">
+        Copyright &copy; 2024 - Quotiverse
+    </footer>
+</body>
+</html>
