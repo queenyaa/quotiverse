@@ -1,6 +1,6 @@
 # Quotiverse
 
-<img src="./web_static/images/logo11.png">
+<img src="./Readme/logo1.png">
 <img src="./Readme/Blog-QuotivWebApp.jpg">
 *Tagline: Explore the Universe of Wisdom and Inspiration*
 
