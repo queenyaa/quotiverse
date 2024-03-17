@@ -1,5 +1,7 @@
 # Quotiverse
 
+<img src="./web_static/images/logo11.png">
+<img src="./Readme/Blog-QuotivWebApp.jpg">
 *Tagline: Explore the Universe of Wisdom and Inspiration*
 
 What if you got a quote for EVERY emotion? Quotes to provoke inspiration, laughter and perspective of your current situation? We quite often undermine words when it comes to depression, emotional wreckage and confusion about a situation. 
